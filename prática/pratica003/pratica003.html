@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática 003</title>
+    <style>
+        h1{
+            color: white;
+            background-color: rgb(48, 97, 80);
+            height: 100px;
+            width: 200px;
+
+            border: 10px solid darkred;
+            padding: 10px;
+            margin: 20px auto 40px auto;
+            outline: 5px dashed saddlebrown;
+        }
+        a.link{
+            color: red;
+            background-color: blanchedalmond;
+            border: 5px solid darkblue;
+            padding: 2px;
+            margin: 5px;
+            outline: 5px solid darkcyan;
+        }
+        a{
+            color: white;
+        }
+        div > p {
+            display: none;
+            color: white;
+        }
+        div:hover > p {
+            display: block;
+            color: white;
+        }
+        div{
+            color: white;
+            display: inline-block;
+            background-color: red;
+            border: 1px solid black;
+            text-align: center;
+            height: 100px;
+            width: 100px;
+        }
+        div:hover{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prática de caixa</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <a href="#" class="link">Voluptas libero</a> magnam quo quam sed debitis sint perspiciatis nemo est delectus facilis odio in eveniet ducimus, ea labore quibusdam, numquam amet!</p>
+    <h1>Personalizando links</h1>
+    <ul>
+        <div>
+            <li><a href="https://gustavosguanabara.github.io">Repositório GitHub</a></li>
+        </div>
+        <div>
+            <li><a href="http://youtube.com/cursoemvideo.com">Canal do Youtube</a></li>
+        </div>
+        <div>
+            <li><a href="https://www.cursoemvideo.com">Site do Curso em Video</a></li>
+        </div>
+    </ul>
+    <h1>Prática de houver</h1>
+    <p>Passe o mouse aqui em cima</p>
+    <div>
+        Passe o mouse aqui
+        <p>Apareceu o texto</p>
+    </div>
+</body>
+</html>

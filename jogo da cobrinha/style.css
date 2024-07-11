@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    margin: 20;
+    padding: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#game-area {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#gameCanvas {
+    border: 2px solid #fff;
+}

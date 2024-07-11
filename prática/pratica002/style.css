@@ -1,0 +1,44 @@
+@charset "UTF-8";
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+    color: black;
+}
+main{
+    background-color: rgb(30, 210, 75);
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: bolder;
+    font-style: oblique;
+    color: brown;
+    text-align: center;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(104, 27, 27);
+    text-align: center;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    font-weight: lighter;
+    font-style: normal;
+    color: black;
+    text-align: justify;
+}
